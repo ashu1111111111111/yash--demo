@@ -1,0 +1,174 @@
+header{
+    background-color: #131a26;
+   
+    
+}
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 20px;
+
+}
+.header-section{
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 20px;
+}
+.header-left{
+width: 40vw;
+margin-top: 50px;
+}
+.header-left h1{
+    color: #fff;
+}
+
+
+.header-left h3{
+color: #fff;
+}
+.get-started-btn{
+    margin-top: 20px;
+    
+}
+.get-started-btn{
+    background-color: lightgreen;
+    border-radius: 25px;
+    font-weight: 700;
+    color: white;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px lightgreen;
+    transition: 0.2s ease-out;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.get-started-btn:hover{
+    background-color: #3bd671;
+}
+.header-right img{
+    width: 600px;
+}
+.white{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    
+}
+.company-logo{
+    text-align: center;
+    margin-block: 30px;
+
+}
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 70px;
+}
+.feature-text{
+    justify-content: center;
+    align-items: center;
+    margin-block: 50px;
+    margin-top: 100px;
+}
+.feature-card{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    width: 30%;
+    height: 350px;
+}
+.parallaxone{
+    width: 100%;
+    height: 400px;
+    background-image: url('../back1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.parallaxtwo{
+    width: 100%;
+    height: 400px;
+    background-image: url('../back4.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.parallaxthree{
+    width: 100%;
+    height: 400px;
+    background-image: url('../back3.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.anim1{
+    opacity: o;
+    animation: moveside 10s ease forwards;
+}
+
+.card:hover{
+    transition: 1.5s ease-in-out;
+    transform: scale(1.2);
+}
+
+@keyframes moveside {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:470px){
+
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-right img{
+        width: 380px;
+        
+    }
+    .header-left{
+        width: 100%;
+        text-align: center;
+    }
+    .get-started-btn{
+        margin-top: 20px;
+        
+    }
+   
+    .logo{
+        height: 30px;
+    }
+    .white{
+        text-align: center;
+    }
+    .feature-card{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+
+
+}

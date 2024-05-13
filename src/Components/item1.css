@@ -1,0 +1,71 @@
+  .item {
+      background-image: url('https://www.apple.com/in/home/promos/apple-watch-series-8/images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      /* Fit the image within the specified dimensions */
+      background-size: 725px 624px;
+      /* Fallback for browsers that don't support 'contain' */
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      height: 624px;
+      /* Set the container height explicitly */
+      width: 725px;
+      /* Set the container width explicitly */
+  }
+
+  .icon {
+      color: white;
+  }
+
+  .white-link {
+      color: white;
+      font-weight: 800;
+      font-size: x-large;
+      text-decoration: none;
+  }
+
+  .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .red-link {
+      color: indianred;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: large;
+      font-family: 'serif';
+  }
+
+  .custom-link {
+      color: white;
+      text-decoration: none;
+      font-size: 21px;
+      line-height: 1.2381;
+      font-weight: 400;
+      letter-spacing: .016em;
+      font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  }
+
+  .link-container {
+      display: flex;
+      /* Use flexbox to align the links horizontally */
+
+  }
+
+  .link-container>Link {
+      margin-right: 40px;
+      /* Adjust the value as per your preference */
+  }
+
+  .blue-link {
+      display: flex;
+      color: #2997ff;
+      font-size: 17px;
+      text-decoration: none;
+      justify-content: space-between;
+
+  }

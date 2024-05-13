@@ -1,0 +1,46 @@
+.forgetmain {
+
+    background-image: url('./Images/vtl2.jpg');
+    /* position: absolute; */
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+    padding: 10px;
+    padding-bottom: 10%;
+    
+
+}
+
+.forget {
+    width: 25%;
+    padding: 20px;
+    background: transparent;
+    /* background-color: beige; */
+    /* border: 1px solid rgb(246, 247, 248); */
+
+    /* margin-left: 70%; */
+    /* float: right; */
+    /* position: sticky; */
+    margin-top: 6%;
+    /* margin-right: 10%; */
+    z-index: 2;
+    margin-left: 70%;
+    box-shadow: 0px 0px 15px 0px #fff;
+    
+
+}
+
+p,
+h2 {
+    color: white;
+}
+
+/* body{
+    background-color: beige;
+} */

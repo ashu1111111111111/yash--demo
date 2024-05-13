@@ -1,0 +1,73 @@
+.item2 {
+    background-image: url('https://www.apple.com/v/home/bc/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 725px 624px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 624px;
+    width: 725px;
+}
+
+.icon2 {
+    color: white;
+}
+
+.black-link-item2 {
+    color: black;
+    font-weight: 800;
+    font-size: x-large;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upgrade2 {
+    color: black;
+    text-decoration: none;
+
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 6px;
+}
+
+.link-container2 {
+    display: flex;
+    /* Use flexbox to align the links horizontally */
+    margin: 0;
+    padding: 0;
+}
+
+.link-container2>Link {
+    margin-right: 40px;
+    /* Adjust the value as per your preference */
+}
+
+.blue-link2 {
+    display: flex;
+    color: #06c;
+    font-size: 19px;
+    text-decoration: none;
+    justify-content: space-between;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}

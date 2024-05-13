@@ -1,0 +1,113 @@
+/* this below footer code written */
+/* .footer {
+    position: relative; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* background-color: #f62222; */
+    /* padding: 0px; */
+  /* }  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 20px
+}
+.hover-link{
+    color: white;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}
+.hover-link:hover{
+text-decoration: underline;
+}
+.flex{
+    display: flex;
+
+}
+footer{
+    background-color: #131a26;
+    /* margin-top: 100px; */
+    padding-block: 80px;
+}
+.footer-container{
+    gap: 100px;
+    display: flex;
+}
+
+.footer-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.footer-description .dwn{
+    color: white;
+    margin-top: 10px;
+}
+.footer-description .desc-dwn{
+    color: #687790;
+    margin-top: 20px;
+    
+}
+.f-t-l{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-section{
+    display: flex;
+    align-items: flex-start;
+
+    gap: 100px;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.link-column h2{
+    color: white;
+   
+}
+.hover-link2 {
+    background-color: orangered;
+    
+    font-weight: 700;
+    color: white;
+    padding: 5px 5px;
+    box-shadow: 0 0 2px orangered;
+    transition: 0.2s ease-out;
+    text-align: center;
+    text-decoration: none;
+}
+@media screen and (max-width:470px){
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .f-t-l{
+        justify-content: center;
+    }
+    .footer-section{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link-column{
+        align-items: stretch;
+    }
+
+
+}
